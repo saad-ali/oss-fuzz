@@ -1,0 +1,8 @@
+homepage: "https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver"
+primary_contact: "gke-kubernetes-storage-lifecycle@google.com"
+auto_ccs:
+ - "saadali@google.com"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
